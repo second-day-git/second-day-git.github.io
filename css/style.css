@@ -1,0 +1,74 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url("../img/background.jpg") center center no-repeat;
+}
+
+a,
+a:focus,
+a:active,
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+header {
+	background-color: #000;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+header a {
+	color: #fff;
+	display: block;
+}
+
+header a:hover {
+	color: #ccc;
+}
+
+
+header h1 {
+	font-weight: normal;
+	margin: 0;
+	float: left;
+}
+
+header h1 a {}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+header nav ul li a {
+	padding: 10px;
+	color: #ccc;
+}
+
+header nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+#intro {}
+
+#intro h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 10;
+	color: #fff;
+	margin: 0;
+}
